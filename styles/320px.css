@@ -1,0 +1,137 @@
+@media (min-width: 320px){
+
+
+  nav{
+    margin: 20px 20px 25px 20px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+
+
+  .overview p{
+    margin: 20px 0px 20px 0px;
+    max-width: 350px;
+  }
+
+  .contacts li{
+    padding: 0px 20px 20px 0px;
+  }
+
+
+  .main{
+    margin: 40px 20px 25px 20px;
+  }
+
+  .is-about, .is-germanium, .is-silicon, .is-zinc, .is-recycling, .is-contact{
+    margin-top: 40px;
+  }
+
+  .is-germanium li, .is-zinc li{
+    margin-top: 10px;
+  }
+
+  .is-studio-logo{
+    margin: 40px 20px 25px 20px;
+  }
+
+
+  .sidebar p{
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 20px 20px 20px;
+  }
+
+  .sidebar h1{
+    font-size: 30px;
+    line-height: 35px;
+    padding: 40px 20px 20px 20px;
+  }
+
+
+  #about-us {
+    z-index: 1;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+
+  }
+
+  #about-us.active{
+    bottom: 0%
+  }
+
+
+  .eye{
+
+    position: fixed;
+    bottom: 20px;
+    top: auto;
+
+    width: 100vw;
+    height: 100vw;
+
+    background-color: green;
+
+
+  }
+
+  .rotate{
+
+    width: calc(95%);
+    height: calc(95%);
+
+    background-color: red;
+  }
+
+
+
+
+  .is {
+    display: flex;
+    margin: auto;
+    border-radius: 100%;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 80px 20px 0 20px;
+
+    font-family: "ALS_Sector_Regular_2.0";
+    font-size: 15px;
+  }
+
+
+  .is-copyright p{
+    text-align: center;
+    margin-top: 100%;
+
+    font-family: "ALS_Sector_Regular_2.0",sans-serif;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+}

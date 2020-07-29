@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'ALS_Sector_Bold_2.0';
+  src: local('ALS_Sector_Bold_2.0'),
+       url(../fonts/ALS_Sector_Bold_2.0.otf) format('opentype'),
+       url(../fonts/ALS_Sector_Bold_2.0.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALS_Sector_Extra Bold_2.0';
+  src: local('ALS_Sector_Extra Bold_2.0'),
+       url(../fonts/ALS_Sector_Extra_Bold_2.0.otf) format('opentype'),
+       url(../fonts/ALS_Sector_Extra_Bold_2.0.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALS_Sector_Regular_2.0';
+  src: local('ALS_Sector_Regular_2.0'),
+       url(../fonts/ALS_Sector_Regular_2.0.otf) format('opentype'),
+       url(../fonts/ALS_Sector_Regular_2.0.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

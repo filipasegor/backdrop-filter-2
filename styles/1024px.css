@@ -1,0 +1,88 @@
+@media (min-width: 1024px){
+
+  nav{
+    margin: 20px 20px 25px 20px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+
+  .main{
+    margin: 14vh 20px 0px 20px;
+  }
+
+
+  .eye{
+    z-index: -100;
+    position: fixed;
+    bottom: 1%;
+    top: 1%;
+    left: 1%;
+    right: 1%;
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 900px;
+    
+    max-height: 900px;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+  }
+
+
+
+  #about-us {
+    width: 45%;
+  }
+
+
+
+  .sidebar p{
+    font-size: 20px;
+    line-height: 27px;
+    padding: 20px 30px 20px 30px;
+  }
+
+  .sidebar h1{
+    padding: 40px 30px 20px 30px;
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+
+
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 0px 20px 0 40vw;
+
+    font-family: "ALS_Sector_Regular_2.0";
+    font-size: 15px;
+
+  }
+
+
+  #eye{
+
+    transform: translate(-15%, -15%);
+    pointer-events: none;
+    transition: transform 3s cubic-bezier(.10,1.23,.79,1.08);
+  }
+
+
+
+
+}
